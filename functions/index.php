@@ -6,11 +6,12 @@
  * Time: 12:08
  * defineerimine functioon */
 function paarsuseKontroll($arv){
-    if(arv % 2 ==0) {
-        echo $arv. 'on paaris<br>';
+    if($arv % 2 == 0) {
+        echo $arv.' on paaris<br>';
     } else {
-        echo $arv. 'on paaritu<br>';
+        echo $arv.' on paaritu<br>';
     }
 }
-
-paarsuseKontroll(arv: 7);
+for ($arv = 0; $arv <=10; $arv++) {
+    paarsuseKontroll($arv);
+}
